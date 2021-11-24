@@ -12,6 +12,13 @@ button:hover {
   background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
 }
 
+.toDo__add {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #232229;
+}
+
 * {
   font-family: "Jost", sans-serif;
 }
@@ -33,6 +40,11 @@ p {
   color: #6C6A7C;
 }
 
+.toDo__task {
+  padding-top: 40px;
+  color: #FFFF;
+}
+
 * {
   padding: 0;
   margin: 5px;
@@ -52,9 +64,19 @@ nav {
   margin: 5%;
 }
 
-.toDo {
-  padding: 20px 10px;
-  width: 300px;
+.toDo__lists {
+  display: flex;
+  flex-direction: row;
+  background-color: #2B2A33;
+  border-radius: 5px;
+}
+
+.toDo__input {
+  margin-top: 20px;
+  padding: 5px;
+  width: 250px;
   height: 40px;
-  justify-content: center;
+  background-color: #2B2A33;
+  border-radius: 5px;
+  border: 2px dashed #6C6A7C;
 }
