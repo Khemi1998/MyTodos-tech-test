@@ -7,17 +7,17 @@ const reset = document.querySelector("#reset");
 //adding tasks
 add.addEventListener("click", ()=>{
 
-
 //needs to have text to be a task
 const inputText = input.value;
 
 if (inputText.length>0) {
     listStatus.innerHTML = `Tasks to complete: ${tasks.childNodes.length+1}`;
+
     const task = document.createElement("div");
     tasks.appendChild(task);    
     task.innerHTML=`${inputText}`;
-
     //check box
+    
     const check =document.createElement("input");
     check.setAttribute("type", "checkbox");
     task.appendChild(check);

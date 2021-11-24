@@ -57,7 +57,9 @@ nav {
     
     >div {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: flex-end;
         border: 1px solid $primary-color;
         background-color: $secondary-color;
         margin: 0px;

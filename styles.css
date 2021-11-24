@@ -97,7 +97,9 @@ nav {
 }
 .toDo_listings > div {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: flex-end;
   border: 1px solid #232229;
   background-color: #2B2A33;
   margin: 0px;
