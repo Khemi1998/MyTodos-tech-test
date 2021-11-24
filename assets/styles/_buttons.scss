@@ -1,8 +1,13 @@
 button {
-    background-color: linear-gradient(180deg, #E1A0a0, #E58181);
-    box-shadow: 1 10px 40px #6B3838;
+    background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+    box-shadow: 0 10px 40px #6B3838;
+    color: $quaternary-color;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: linear-gradient(180deg, #E2C1C1, #CA8282);
+    background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
 }

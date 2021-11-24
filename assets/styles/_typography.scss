@@ -3,13 +3,18 @@
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 35px;
+    color: $quaternary-color;
+    text-align: center;
+    padding-top: 30px;
 }
 
 h2 {
     font-size: 24px;
+    color: $quaternary-color;
 }
 
 p {
     font-size: 16px;
+    color: $tertiary-color
 }

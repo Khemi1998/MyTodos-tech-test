@@ -1,11 +1,32 @@
 
-@import "assets/styles/_variables.scss";
-@import "assets/styles/_buttons.scss";
-@import "assets/styles/_typography.scss";
+@import "./assets/styles/_variables.scss";
+@import "./assets/styles/_buttons.scss";
+@import "./assets/styles/_typography.scss";
+
+* {
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 5%;
+}
+
+.toDo {
+    padding-top: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: $secondary-color;
 }
