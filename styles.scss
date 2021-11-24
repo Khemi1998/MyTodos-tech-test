@@ -1,0 +1,11 @@
+
+@import "assets/styles/_variables.scss";
+@import "assets/styles/_buttons.scss";
+@import "assets/styles/_typography.scss";
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+}

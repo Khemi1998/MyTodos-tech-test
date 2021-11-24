@@ -1,0 +1,31 @@
+button {
+  background-color: linear-gradient(180deg, #E1A0a0, #E58181);
+  box-shadow: 1 10px 40px #6B3838;
+}
+
+button:hover {
+  background-color: linear-gradient(180deg, #E2C1C1, #CA8282);
+}
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+}
