@@ -26,6 +26,7 @@ nav {
 .toDo__lists {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: $secondary-color;
     border-radius: 5px;
 }
@@ -41,7 +42,7 @@ nav {
 .toDo__input {
     margin-top: 20px;
     padding-bottom: 5px;
-    width: 250px;
+    width: 80%;
     height: 35px;
     background-color: $secondary-color;
     border-radius: 5px;
@@ -55,6 +56,8 @@ nav {
     
     
     >div {
+        display: flex;
+        flex-direction: row;
         border: 1px solid $primary-color;
         background-color: $secondary-color;
         margin: 0px;
@@ -62,3 +65,21 @@ nav {
         padding: 5px;
     }
 }
+
+input[type='checkbox']:after{
+    content: ' ';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-top: -4px;
+    margin-left: -4px;
+    border: 1px solid $quinary-color;
+    border-radius: 0.25em;
+    background: $secondary-color;
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+        height: 15px;
+        background-color: $quinary-color;
+    }
