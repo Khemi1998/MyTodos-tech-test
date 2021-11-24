@@ -14,7 +14,9 @@ if (input.value.length>0) {
 
     const task = document.createElement("div");
     tasks.appendChild(task);    
-    task.innerHTML=`<h3>${input.value}</h3>`;
+    task.innerHTML=
+    `<button class="edit"><i class="fas fa-pencil-alt"></i></button>
+    <h3>${input.value}</h3>`;
     input.value = "";
     
     //add check box

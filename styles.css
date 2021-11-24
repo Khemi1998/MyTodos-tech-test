@@ -21,6 +21,19 @@ button:hover {
   margin-right: 20px;
 }
 
+.edit {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border: none;
+  color: #E58181;
+  font-size: 20px;
+}
+
+.edit:hover {
+  background-image: none;
+}
+
 * {
   font-family: "Jost", sans-serif;
 }
@@ -114,13 +127,14 @@ nav {
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 1px solid #232229;
   background-color: #2B2A33;
   margin-left: 10px;
   height: 40px;
   padding: 5px;
   align-items: center;
+  padding-left: 25px;
 }
 
 input[type=checkbox]:after {

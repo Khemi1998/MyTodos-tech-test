@@ -55,14 +55,14 @@ nav {
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-start;
-        justify-content: space-around;
+        justify-content: space-between;
         border: 1px solid $primary-color;
         background-color: $secondary-color;
         margin-left: 10px;
         height: 40px;
         padding: 5px;
         align-items: center;
-        
+        padding-left: 25px;
     }
 }
 
