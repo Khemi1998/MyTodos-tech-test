@@ -71,15 +71,24 @@ nav {
   border-radius: 5px;
 }
 
-.toDo__input {
-  margin-top: 20px;
-  padding: 5px;
-  width: 250px;
-  height: 40px;
-  background-color: #2B2A33;
+.toDo_container {
   border-radius: 5px;
   border: 2px dashed #6C6A7C;
   color: #FFFF;
+  justify-content: center;
+  background-color: #2B2A33;
+}
+
+.toDo__input {
+  margin-top: 20px;
+  padding-bottom: 5px;
+  width: 250px;
+  height: 35px;
+  background-color: #2B2A33;
+  border-radius: 5px;
+  border: none;
+  color: #FFFF;
+  justify-content: center;
 }
 
 .toDo_listings {
@@ -90,4 +99,5 @@ nav {
   background-color: #2B2A33;
   margin: 0px;
   height: 40px;
+  padding: 5px;
 }
