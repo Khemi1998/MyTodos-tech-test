@@ -79,4 +79,15 @@ nav {
   background-color: #2B2A33;
   border-radius: 5px;
   border: 2px dashed #6C6A7C;
+  color: #FFFF;
+}
+
+.toDo_listings {
+  color: #FFFF;
+}
+.toDo_listings > div {
+  border: 1px solid #232229;
+  background-color: #2B2A33;
+  margin: 0px;
+  height: 40px;
 }
