@@ -5,7 +5,7 @@
 
 * {
     padding: 0;
-    margin: 5px;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -29,18 +29,12 @@ nav {
     justify-content: space-between;
     background-color: $secondary-color;
     border-radius: 5px;
-}
-
-.toDo_container {
-    border-radius: 5px;
     border: 2px dashed $tertiary-color;
     color: $quaternary-color;
-    justify-content: center;
-    background-color: $secondary-color;
+    margin: 20px;
 }
 
 .toDo__input {
-    margin-top: 20px;
     padding-bottom: 5px;
     width: 80%;
     height: 35px;
@@ -49,22 +43,26 @@ nav {
     border: none;
     color: $quaternary-color;
     justify-content: center;
+    margin: 20px;
 }
 
 .toDo_listings{
     color: $quaternary-color;
+    margin: 20px;
     
     
     >div {
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-start;
-        justify-content: flex-end;
+        justify-content: space-around;
         border: 1px solid $primary-color;
         background-color: $secondary-color;
-        margin: 0px;
+        margin-left: 10px;
         height: 40px;
         padding: 5px;
+        align-items: center;
+        
     }
 }
 
@@ -85,3 +83,21 @@ input[type='checkbox']:checked:after {
         height: 15px;
         background-color: $quinary-color;
     }
+
+
+.toDo__deletion {
+    background: $secondary-color;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    display: none;
+}
+
+.toDo__deletion_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

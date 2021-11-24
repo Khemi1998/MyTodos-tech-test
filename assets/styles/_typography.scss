@@ -14,12 +14,30 @@ h2 {
     color: $quaternary-color;
 }
 
+h3 {
+    font-size: 16px;
+    color: $quaternary-color;
+    margin-left: 20px;
+}
+
 p {
     font-size: 16px;
-    color: $tertiary-color
+    color: $tertiary-color;
+    margin-left: 20px;
+}
+
+#toDo__para {
+    margin: 20px;
 }
 
 .toDo__task {
     padding-top: 40px;
     color: $quaternary-color;
+    align-items: center;
+}
+
+
+.toDo__deletion__status {
+    color: $quaternary-color;
+    align-items: center;
 }
