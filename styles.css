@@ -1,3 +1,4 @@
+@charset "UTF-8";
 button {
   background-image: linear-gradient(180deg, #e1a0a0, #e58181);
   box-shadow: 0 10px 40px #6B3838;
@@ -152,7 +153,10 @@ input[type=checkbox]:after {
 input[type=checkbox]:checked:after {
   width: 15px;
   height: 15px;
+  content: "✓";
+  color: #FFFF;
   background-color: #E58181;
+  text-align: center;
 }
 
 .toDo__deletion {

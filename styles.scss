@@ -81,8 +81,11 @@ input[type='checkbox']:after{
 input[type='checkbox']:checked:after {
     width: 15px;
         height: 15px;
+        content: "✓";
+        color: $quaternary-color;
         background-color: $quinary-color;
-    }
+        text-align: center;
+}
 
 
 .toDo__deletion {
