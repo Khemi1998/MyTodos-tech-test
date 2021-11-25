@@ -13,29 +13,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=sawp" rel="stylesheet"> 
     <title>MyToDos</title>
 </head>
-<body>
-    <nav>
-        <h2 id="logo">MyTodos</h2>
-        <button id="reset">Reset</button>
+<body class = "MyTodos">
+    <nav class = "MyTodos__nav">
+        <h2 class = "MyTodos__logo">MyTodos</h2>
+        <button class = "MyTodos__reset"">Reset</button>
     </nav>
 
-    <h1 id="toDo__hero">Welcome Back Jake!</h1>
-    <p id="toDo__para">Let's enter the tasks we need to complete for this upcoming week. Just use the input below to create a todo.</p>
+    <h1 class = "MyTodos__hero">Welcome Back Jake!</h1>
+    <p class = "MyTodos__hero__subtitle">Let's enter the tasks we need to complete for this upcoming week. Just use the input below to create a todo.</p>
 
-    <div class="toDo__lists">
-        <input placeholder="Add your task here..." class= "toDo__input">
-        <button class="toDo__add">+</button>
+    <div class = "MyTodos__lists">
+        <input placeholder="Add your task here..." class = "MyTodos__lists--input">
+        <button class = "MyTodos__lists--add">+</button>
     </div>
 
-    <p class = "toDo__task"><strong>Tasks</strong></p>
+    <p class = "MyTodos__lists__tasks"><strong>Tasks</strong></p>
 
-    <div class="toDo_listings"></div>
-    <p class="toDo__status">All tasks have been completed. Great job!</p>
+    <div class="MyTodos__lists__task"></div>
+    <p class="MyTodos__lists__status">All tasks have been completed. Great job!</p>
 
-    <div class="toDo__deletion">
-        <div class="toDo__deletion_container">
-            <p class= "toDo__deletion__status"></p>
-            <button class= "toDo__delete">delete</button>
+    <div class="MyTodos__deletion">
+        <div class="MyTodos__deletion_container">
+            <p class= "MyTodos__deletion--status"></p>
+            <button class= "MyTodos__deletion--delete">delete</button>
         </div>
        
     </div>

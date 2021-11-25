@@ -1,9 +1,9 @@
-const input = document.querySelector(".toDo__input");
-const add = document.querySelector(".toDo__add");
-const tasks = document.querySelector(".toDo_listings");
-const listStatus = document.querySelector(".toDo__status");
-const reset = document.querySelector("#reset");
-const deletingStatus = document.querySelector(".toDo__deletion");
+const input = document.querySelector(".MyTodos__lists--input");
+const add = document.querySelector(".MyTodos__lists--add");
+const tasks = document.querySelector(".MyTodos__lists__task");
+const listStatus = document.querySelector(".MyTodos__lists__status");
+const reset = document.querySelector(".MyTodos__reset");
+const deletingStatus = document.querySelector(".MyTodos__deletion");
 
 //adding tasks
 add.addEventListener("click", ()=>{
@@ -15,8 +15,8 @@ if (input.value.length>0) {
     const task = document.createElement("div");
     tasks.appendChild(task);    
     task.innerHTML=
-    `<button class="edit"><i class="fas fa-pencil-alt"></i></button>
-    <h3>${input.value}</h3>`;
+    `<button class="MyTodos__edit"><i class="fas fa-pencil-alt"></i></button>
+    <h3 class="MyTodos__task__tobedone">${input.value}</h3>`;
     input.value = "";
     
     //add check box

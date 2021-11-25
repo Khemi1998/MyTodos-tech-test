@@ -9,21 +9,20 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: $primary-color;
     display: flex;
     flex-direction: column;
 }
 
-nav {
+.MyTodos__nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 5%;
 }
 
-.toDo__lists {
+.MyTodos__lists {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,7 +33,7 @@ nav {
     margin: 20px;
 }
 
-.toDo__input {
+.MyTodos__lists--input {
     padding-bottom: 5px;
     width: 80%;
     height: 35px;
@@ -46,10 +45,9 @@ nav {
     margin: 20px;
 }
 
-.toDo_listings{
+.MyTodos__lists__task{
     color: $quaternary-color;
     margin: 20px;
-    
     
     >div {
         display: flex;
@@ -61,6 +59,7 @@ nav {
         margin-left: 10px;
         height: 40px;
         padding: 5px;
+
         align-items: center;
         padding-left: 25px;
     }
@@ -88,7 +87,7 @@ input[type='checkbox']:checked:after {
 }
 
 
-.toDo__deletion {
+.MyTodos__deletion {
     background: $secondary-color;
     padding: 10px;
     align-items: center;
@@ -99,7 +98,7 @@ input[type='checkbox']:checked:after {
     display: none;
 }
 
-.toDo__deletion_container {
+.MyTodos__deletion_container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

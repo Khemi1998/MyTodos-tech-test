@@ -2,19 +2,19 @@
     font-family: 'Jost', sans-serif;
 }
 
-h1 {
+.MyTodos__hero {
     font-size: 35px;
     color: $quaternary-color;
     text-align: center;
     padding-top: 30px;
 }
 
-h2 {
+.MyTodos__logo {
     font-size: 24px;
     color: $quaternary-color;
 }
 
-h3 {
+.MyTodos__task__tobedone {
     font-size: 16px;
     color: $quaternary-color;
     margin-left: 20px;
