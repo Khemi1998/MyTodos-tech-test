@@ -33,3 +33,11 @@ button:hover {
 .MyTodos__edit:hover {
     background-image: none;
 }
+
+.MyTodos__deletion--status {
+    color: $quaternary-color;
+}
+
+.MyTodos__editting {
+    border:2px solid $quinary-color;
+}

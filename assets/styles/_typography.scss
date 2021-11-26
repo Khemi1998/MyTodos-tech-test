@@ -20,9 +20,21 @@
     margin-left: 20px;
 }
 
-p {
+.MyTodos__hero__subtitle {
     font-size: 16px;
     color: $tertiary-color;
+    margin: 20px;
+}
+
+.MyTodos__lists__status{
+    margin-left: 20px;
+    font-size: 16px;
+    color: $tertiary-color;
+}
+
+.MyTodos__lists__tasks {
+    padding-top: 30px;
+    color: $quaternary-color;
     margin-left: 20px;
 }
 
