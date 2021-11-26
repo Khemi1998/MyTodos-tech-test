@@ -52,23 +52,24 @@ document.addEventListener("change", ()=>{
     //checked checkboxes
     const ischecked = document.querySelectorAll('.MyTodos__checkbox:checked')
     deletingStatus.innerHTML = (`${ischecked.length} Task(s) Selected`);
+
+    delete_button.addEventListener("click", ()=>{
+        //checkboxes
+        const checkbox = document.querySelectorAll(".MyTodos__checkbox");
+        
+        for (let i=0; i<checkbox.length; i++ ){
+            if (checkbox[i].checked ===true){
+            //deleting selected nodes
+            toBeDeleted = tasks.childNodes[i];
+        }
+        }
+        tasks.removeChild(toBeDeleted);
+        listStatus.innerHTML = `Tasks to complete: ${tasks.childNodes.length}`
+        deletingStatus.innerHTML = (`${ischecked.length} Task(s) Selected`);
+        })
 })
 
 
-delete_button.addEventListener("click", ()=>{
-    //checkboxes
-    const checkbox = document.querySelectorAll(".MyTodos__checkbox");
-    
-    for (let i=0; i<checkbox.length; i++ ){
-        if (checkbox[i].checked ===true){
-        //deleting selected nodes
-        toBeDeleted = tasks.childNodes[i];
-    }
-    }
-    tasks.removeChild(toBeDeleted);
-    listStatus.innerHTML = `Tasks to complete: ${tasks.childNodes.length}`
-
-    })
 
 //reset
 reset.addEventListener("click", ()=> {
