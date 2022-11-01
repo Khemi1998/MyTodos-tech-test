@@ -35,6 +35,14 @@ button:hover {
   background-image: none;
 }
 
+.MyTodos__deletion--status {
+  color: #FFFF;
+}
+
+.MyTodos__editting {
+  border: 2px solid #E58181;
+}
+
 * {
   font-family: "Jost", sans-serif;
 }
@@ -57,9 +65,21 @@ button:hover {
   margin-left: 20px;
 }
 
-p {
+.MyTodos__hero__subtitle {
   font-size: 16px;
   color: #6C6A7C;
+  margin: 20px;
+}
+
+.MyTodos__lists__status {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #6C6A7C;
+}
+
+.MyTodos__lists__tasks {
+  padding-top: 30px;
+  color: #FFFF;
   margin-left: 20px;
 }
 
@@ -132,7 +152,7 @@ body {
   border: 1px solid #232229;
   background-color: #2B2A33;
   margin-left: 10px;
-  height: 40px;
+  height: 60px;
   padding: 5px;
   align-items: center;
   padding-left: 25px;
@@ -173,5 +193,6 @@ input[type=checkbox]:checked:after {
 .MyTodos__deletion_container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
 }
